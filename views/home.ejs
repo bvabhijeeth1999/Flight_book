@@ -1,0 +1,35 @@
+<!doctype HTML>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--googlefonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <form class="form1 form-group" action="/" method="post">
+      <img class="brand" src="icons/airplane.png" alt="Airplane logo">
+      <label for="from">From </label>
+      <select id="from" name="from" class="formInput custom-select" required>
+        <option value="hyderabad">Hyderabad</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="delhi">Delhi</option>
+      </select>
+      <label for="to">To </label>
+      <select id="from" name="to" class="formInput custom-select" required>
+        <option value="hyderabad">Hyderabad</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="delhi">Delhi</option>
+      </select>
+      <label for="nos">Number of Seats </label>
+      <input type="number" name="nos" class="formInput form-control" id="nos" value="" required>
+      <label for="date">Date </label>
+      <input type="date" name="date" class="formInput form-control" id="date" value="" required>
+      <button type="submit" name="button" class="btn-custom btn btn-outline-primary btn-lg">BOOK</button>
+    </form>
+  </body>
+</html>

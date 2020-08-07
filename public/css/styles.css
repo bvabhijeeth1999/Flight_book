@@ -1,0 +1,26 @@
+.form1 {
+  margin: 10px 150px;
+}
+
+.formInput {
+  margin-bottom: 20px;
+}
+
+.brand {
+  display : block;
+  margin : 0 auto;
+}
+
+body {
+  background-color: #8ec6c5;
+  font-family: 'Recursive', sans-serif;
+  font-size: 20px;
+}
+
+.hr {
+  color: red;
+}
+
+.btn-custom {
+  margin-left : 550px;
+}
